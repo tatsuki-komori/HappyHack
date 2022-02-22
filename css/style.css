@@ -50,6 +50,7 @@ h2 {
 @media screen and (max-width: 480px) {
     h2 {
         font-size: 10vw;
+        padding: 8vw;
     }
 }
 
@@ -145,13 +146,13 @@ header p {
 @media screen and (max-width: 480px){
     .item-container1 {
         display: flex;
-        padding: 0 5vw 4vw;
+        padding: 0 5vw 8vw;
         justify-content: center;
         flex-direction: column;
     }
     .item-container2 {
         display: flex;
-        padding: 0 5vw 4vw;
+        padding: 0 5vw 8vw;
         justify-content: center;
         flex-direction: column;
     }
@@ -160,15 +161,19 @@ header p {
         width: 100%;
     }
 
+    .item img {
+        width: 100%;
+    }
+
     .item p {
         padding-top: 3vw;
         padding-bottom: 3vw;
-        font-size: 5vw;
-        line-height: 8vw;
+        font-size: 12px;
+        line-height: 28px;
     }
 
     .item a {
-        font-size: 5vw;
+        font-size: 16px;
     }
 }
 
