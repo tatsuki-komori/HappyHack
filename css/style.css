@@ -44,7 +44,7 @@ h2 {
     text-align: center;
     padding: 3vw;
     font-family: "bol";
-    color: #4258d1
+    color: #4258d1;
 }
 
 @media screen and (max-width: 480px) {
@@ -278,6 +278,7 @@ footer p {
     text-align: center;
     font-size: 16px;
     line-height: 48px;
+    color: #4258d1;
 }
 
 iframe {
