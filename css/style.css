@@ -137,6 +137,11 @@ header p {
     font-family: "boo";
 }
 
+.item a {
+    padding: 0.3vw 2.5vw;
+    font-size: 1.5vw;
+}
+
 @media screen and (max-width: 480px){
     .item-container1 {
         display: flex;
@@ -161,6 +166,10 @@ header p {
         font-size: 5vw;
         line-height: 8vw;
     }
+
+    .item p {
+        font-size: 3vw;
+    }
 }
 
 .button {
@@ -173,11 +182,6 @@ header p {
 
 .button:hover {
     box-shadow: rgba(0, 0, 0, 0.3) 0 0 1vw;
-}
-
-.item a {
-    padding: 0.3vw 2.5vw;
-    font-size: 1.5vw;
 }
 
 body{ margin:0; font:normal 75% Arial, Helvetica, sans-serif; } 
