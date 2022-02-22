@@ -167,8 +167,8 @@ header p {
         line-height: 8vw;
     }
 
-    .item p {
-        font-size: 3vw;
+    .item a {
+        font-size: 5vw;
     }
 }
 
