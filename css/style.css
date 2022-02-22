@@ -1,7 +1,38 @@
+@font-face {
+    font-family: 'bol';
+    src: url("../fonts/Futura-Bol.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "boo";
+    src: url("../fonts/Futura-Boo.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "med";
+    src: url("../fonts/Futura-Med.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "medObl";
+    src: url("../fonts/Futura-MedObl.ttf");
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+section>*{
+    opacity: 0.1;
+    transform: translate(0, -20px);
+    transition: all 1s;
+}
+
+.scrollin {
+    opacity: 1;
+    transform: translate(0, 0);
 }
 
 a {
@@ -9,9 +40,11 @@ a {
 }
 
 h2 {
-    font-size: 3.5vw;
+    font-size: 4vw;
     text-align: center;
     padding: 3vw;
+    font-family: "bol";
+    color: #4258d1
 }
 
 header {
@@ -25,8 +58,8 @@ header {
 
 nav {
     position: absolute;
-    right: 2vw;
-    top: 1vw;
+    right: 2.5vw;
+    top: 1.5vw;
     display: flex;
     justify-content: space-between;
 }
@@ -35,7 +68,12 @@ nav a {
     display: inline-block;
     color: #fff;
     margin: 1vw;
-    font-size: 1.8vw;
+    font-size: 2.2vw;
+    font-family: "med";
+}
+
+nav a:hover {
+    color: #4d4dec;
 }
 
 @media screen and (max-width: 480px) {
@@ -54,7 +92,8 @@ header img {
 
 header p {
     color: #fff;
-    font-size: 3em;
+    font-size: 3.5vw;
+    font-family: "medObl";
 }
 
 .item-container1 {
@@ -89,6 +128,7 @@ header p {
     line-height: 2.2vw;
     padding-left: 3vw;
     padding-right: 3vw;
+    font-family: "boo";
 }
 
 @media screen and (max-width: 480px){
@@ -116,6 +156,11 @@ header p {
     margin: 1.9vw auto;
     border-radius: 0.7vw;
     text-align: center;
+    font-family: 'Noto Serif JP', serif;
+}
+
+.button:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0 0 1vw;
 }
 
 .item a {
@@ -178,6 +223,7 @@ canvas{
     font-size: 18px;
     display: inline-block;
     margin: 0 auto;
+    font-family: 'Noto Sans JP';
 }
 
 .card a {
