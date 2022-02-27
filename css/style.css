@@ -104,6 +104,16 @@ header p {
     font-family: "medObl";
 }
 
+@media screen and (max-width: 480px) {
+    header img {
+        width: 80vw;
+    }
+
+    header p {
+        font-size: 20px;
+    }
+}
+
 .item-container1 {
     display: flex;
     padding: 0 12vw 4vw;
